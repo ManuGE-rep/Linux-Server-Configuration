@@ -172,6 +172,10 @@ a web application.
 
 >   **ServerAdmin admin\@email.com**
 
+>   **WSGIDaemonProcess catalog python-path=/var/www/MovieCatalog:/var/www/MovieCatalog/MovieCatalog/venv3/lib/python3.6/site-packages**
+
+>   **WSGIProcessGroup MovieCatalog**
+
 >   **WSGIScriptAlias / /var/www/MovieCatalog/moviecatalog.wsgi**
 
 >   **\<Directory /var/www/MovieCatalog/MovieCatalog/\>**
